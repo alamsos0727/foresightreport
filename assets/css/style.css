@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+.inner-row-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.navbar-collapse.header-desktop {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.navbar-collapse.header-desktop .nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    color: #101531!important;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.navbar-collapse.header-desktop .nav-link:hover {
+    color: #b56953!important;
+}
+.navbar-brandsdfd {
+    width: 100%;
+    max-width: 60px;
+    margin: auto;
+    height: 60px;
+    transition: 0.5s;
+    display: block;
+}
+.navbar-brandsdfd img {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.dropdown-item {
+    padding: 0.55rem 0.5rem;
+    font-size: 15px;
+}
+.dropdown-item:hover {
+    color: #b56953;
+}
+.dropdown-divider {
+    margin: 0;
+}
+.dropdown-menu.show {
+    border: 1px solid #e9ecef;
+    border-radius: 0px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 15rem;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.button-login {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    background-color: #ffd90d;
+    border: 1px solid #ffd90d;
+    margin-left: 10px;
+}
+.button-login:hover {
+    background-color: transparent;
+    border-color: #ffd90d;
+}
+.button-login:hover span a {
+    color: #ffd90d;
+}
+.button-login span a {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    line-height: inherit;
+}
+
+
+/* ================ video section banner =============== */
+.banner-video {
+    padding: 10px 0;
+}
+.video-outer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.overlayDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    background-color: #00000096;
+    background-blend-mode: color;
+}
+.overlayDiv h1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+}
+.video-outer video {
+    width: 100%;
+    height: 100%;
+}
+.advitisment-outer {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.advitisment-outer img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-video .col-12{
+/*    border: 1px solid #000;*/
+}
+.padding-left {
+    padding-left: 0!important;
+}
+.padding-right {
+    padding-right: 0!important;
+}
+/* ================ video section banner =============== */
+/*===================== header top fixe css =================== */
+.des-header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 5px 5px -5px #333;
+}
+.change .navbar-brandsdfd {
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    padding: 0 20px;
+}
+.change .navbar-brandsdfd img {
+    transition: 0.5s;
+}
+.change {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    transition: 0.5s;
+    z-index: 1;
+    transition: 0.5s;
+}
+/*===================== header top fixe css =================== */
+
+/* ============== footer section code ============== */
+footer.footer-sx {
+    padding: 5px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    background-color: #ffd90d;
+    color: #fff;
+    text-align: center;
+}
+div#footer-info a {
+    color: #000;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-left: 10px;
+}
+div#footer-info a:hover {
+    color: #18297c;
+}
+div#footer-info {
+    text-transform: capitalize;
+}
+/* ============== footer section code ============== */
