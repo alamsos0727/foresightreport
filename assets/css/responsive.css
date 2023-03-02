@@ -2,6 +2,41 @@
 	.only-mobile {
 		display: none;
 	}
+	.banner-video .col-12 {
+	    padding: 0;
+	}
+	.banner-video {
+		padding: 0;
+	}
+	.table-list {
+	    width: 100%;
+	    height: 329px;
+	    overflow: auto;
+	}
+	.table-list::-webkit-scrollbar {
+	  width: 10px;               /* width of the entire scrollbar */
+	}
+
+	.table-list::-webkit-scrollbar-track {
+	  background: orange;        /* color of the tracking area */
+	}
+
+	.table-list::-webkit-scrollbar-thumb {
+	  background-color: #fff;    /* color of the scroll thumb */
+	  border-radius: 20px;       /* roundness of the scroll thumb */
+	  border: 3px solid orange;  /* creates padding around scroll thumb */
+	}
+	.advitisment-outer{
+	    background-image: url('../images/advertisment/bg.jpg');
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
 }
 @media screen and (min-width: 991px) and (max-width: 1199px) {
 	.navbar-collapse.header-desktop .nav-link {
@@ -10,6 +45,9 @@
 	    font-size: 14px!important;
 	    color: #101531!important;
 	    letter-spacing: 0.5px;
+	}
+	.inspection-content h1 {
+		font-size: 32px;
 	}
 }
 @media screen and (max-width: 991px) {
@@ -41,6 +79,20 @@
 	    border: 1px solid #e9ecef;
 	    border-radius: 0px;
 	    margin: 5px 0 15px 0;
+	}
+	.dropdown-menu .dropdown-submenu {
+	    display: none;
+	    position: absolute;
+	    left: 0;
+	    top: 40px;
+	    transition: 0.5s;
+	}
+	.dropdown-item {
+	    padding: 0.55rem 0.5rem;
+	    font-size: 15px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
 	}
 }
 @media screen and (max-width: 767px) {
@@ -75,9 +127,40 @@
 	}
 	.advitisment-outer {
 	    width: 100%;
-	    height: 261px;
-	    padding: 0;
+	    height: 100%;
+	    padding: 30px 0;
 	    margin: 0;
 	    display: block;
 	}
+	.david-mcbride {
+	    font-size: 13px;
+	    font-weight: 500;
+	    color: #ffd90d;
+	    margin-bottom: 2px;
+	}
+	.inspection-content h1 {
+	    font-size: 32px;
+	    margin-top: 30px;
+	}
+	.home-inspection-s {
+	    font-size: 12px;
+	    font-weight: 400;
+	    color: #333;
+	}
+	.Huntsville {
+	    width: 100%;
+	    min-height: 55px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    font-size: 14px;
+	}
+	div#footer-info {
+	    text-transform: capitalize;
+	    font-size: 14px;
+	}
+	.dropdown-menu {
+		width: 100%;
+	}
+
 }
