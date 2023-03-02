@@ -80,12 +80,12 @@
 	    border-radius: 0px;
 	    margin: 5px 0 15px 0;
 	}
-	.dropdown-menu .dropdown-submenu {
-	    display: none;
+	ul.dropdown-menu.dropdown-submenu.show {
 	    position: absolute;
 	    left: 0;
 	    top: 40px;
 	    transition: 0.5s;
+	    display: block;
 	}
 	.dropdown-item {
 	    padding: 0.55rem 0.5rem;
